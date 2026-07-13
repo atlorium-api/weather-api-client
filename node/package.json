@@ -1,0 +1,19 @@
+{
+  "name": "weather-api-client-example",
+  "version": "1.0.0",
+  "description": "Пример работы с API погоды Atlorium: текущая погода по координатам (широта, долгота)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
